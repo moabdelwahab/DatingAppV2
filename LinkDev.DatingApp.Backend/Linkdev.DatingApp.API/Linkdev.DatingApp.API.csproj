@@ -8,4 +8,10 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\linkdev.datingapp.core\linkdev.datingapp.core.csproj" />
+    <ProjectReference Include="..\linkdev.datingapp.Application\linkdev.datingapp.Application.csproj" />
+
+  </ItemGroup>
+
 </Project>

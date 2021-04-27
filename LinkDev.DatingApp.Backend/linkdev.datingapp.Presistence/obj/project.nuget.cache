@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gUUjeamokkgjFJqpWDqPqDnPNdyomZBsziCDrYm2AN4StybiYiI0/73w+6gWnB2qLMlDn8LC2zH5Na7cA68Mdw==",
+  "dgSpecHash": "YdND+16asGKPB+F77XxeMm48FBocQ2pD5iZE/oeMzMTliU5dSSkYFsuBBZj35/wI3zTbDIpsdJ6bBLiSZhhlYg==",
   "success": true,
-  "projectFilePath": "E:\\Tutorials\\DatingApp\\linkdev.datingapp.backend\\linkdev.datingapp.Presistence\\linkdev.datingapp.Presistence.csproj",
+  "projectFilePath": "E:\\Tutorials\\DatingApp\\LinkDev.DatingApp.Backend\\linkdev.datingapp.presistence\\linkdev.datingapp.Presistence.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

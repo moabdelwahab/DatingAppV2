@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "Linkdev.DatingApp.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Linkdev.DatingApp.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Linkdev.DatingApp.Core.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Linkdev.DatingApp.Core/1.0.0": {
+      "type": "project",
+      "path": "../linkdev.datingapp.core/Linkdev.DatingApp.Core.csproj",
+      "msbuildProject": "../linkdev.datingapp.core/Linkdev.DatingApp.Core.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "Linkdev.DatingApp.Core >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\mhmad\\.nuget\\packages\\": {}
@@ -13,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Tutorials\\DatingApp\\linkdev.datingapp.backend\\linkdev.datingapp.Presistence\\linkdev.datingapp.Presistence.csproj",
+      "projectUniqueName": "E:\\Tutorials\\DatingApp\\LinkDev.DatingApp.Backend\\linkdev.datingapp.presistence\\linkdev.datingapp.Presistence.csproj",
       "projectName": "linkdev.datingapp.Presistence",
-      "projectPath": "E:\\Tutorials\\DatingApp\\linkdev.datingapp.backend\\linkdev.datingapp.Presistence\\linkdev.datingapp.Presistence.csproj",
+      "projectPath": "E:\\Tutorials\\DatingApp\\LinkDev.DatingApp.Backend\\linkdev.datingapp.presistence\\linkdev.datingapp.Presistence.csproj",
       "packagesPath": "C:\\Users\\mhmad\\.nuget\\packages\\",
-      "outputPath": "E:\\Tutorials\\DatingApp\\linkdev.datingapp.backend\\linkdev.datingapp.Presistence\\obj\\",
+      "outputPath": "E:\\Tutorials\\DatingApp\\LinkDev.DatingApp.Backend\\linkdev.datingapp.presistence\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mhmad\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -33,7 +52,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\Tutorials\\DatingApp\\LinkDev.DatingApp.Backend\\linkdev.datingapp.core\\linkdev.datingapp.core.csproj": {
+              "projectPath": "E:\\Tutorials\\DatingApp\\LinkDev.DatingApp.Backend\\linkdev.datingapp.core\\linkdev.datingapp.core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
