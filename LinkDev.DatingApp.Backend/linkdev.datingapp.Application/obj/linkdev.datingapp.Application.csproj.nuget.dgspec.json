@@ -62,12 +62,12 @@
         }
       }
     },
-    "E:\\Tutorials\\DatingApp\\LinkDev.DatingApp.Backend\\linkdev.datingapp.core\\Linkdev.DatingApp.Core.csproj": {
+    "E:\\Tutorials\\DatingApp\\LinkDev.DatingApp.Backend\\linkdev.datingapp.core\\linkdev.datingapp.core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Tutorials\\DatingApp\\LinkDev.DatingApp.Backend\\linkdev.datingapp.core\\Linkdev.DatingApp.Core.csproj",
-        "projectName": "Linkdev.DatingApp.Core",
-        "projectPath": "E:\\Tutorials\\DatingApp\\LinkDev.DatingApp.Backend\\linkdev.datingapp.core\\Linkdev.DatingApp.Core.csproj",
+        "projectUniqueName": "E:\\Tutorials\\DatingApp\\LinkDev.DatingApp.Backend\\linkdev.datingapp.core\\linkdev.datingapp.core.csproj",
+        "projectName": "linkdev.datingapp.core",
+        "projectPath": "E:\\Tutorials\\DatingApp\\LinkDev.DatingApp.Backend\\linkdev.datingapp.core\\linkdev.datingapp.core.csproj",
         "packagesPath": "C:\\Users\\mhmad\\.nuget\\packages\\",
         "outputPath": "E:\\Tutorials\\DatingApp\\LinkDev.DatingApp.Backend\\linkdev.datingapp.core\\obj\\",
         "projectStyle": "PackageReference",

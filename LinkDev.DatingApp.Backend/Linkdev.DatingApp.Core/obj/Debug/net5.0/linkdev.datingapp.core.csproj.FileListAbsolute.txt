@@ -1,0 +1,12 @@
+E:\Tutorials\DatingApp\LinkDev.DatingApp.Backend\linkdev.datingapp.core\bin\Debug\net5.0\linkdev.datingapp.core.deps.json
+E:\Tutorials\DatingApp\LinkDev.DatingApp.Backend\linkdev.datingapp.core\bin\Debug\net5.0\linkdev.datingapp.core.dll
+E:\Tutorials\DatingApp\LinkDev.DatingApp.Backend\linkdev.datingapp.core\bin\Debug\net5.0\ref\linkdev.datingapp.core.dll
+E:\Tutorials\DatingApp\LinkDev.DatingApp.Backend\linkdev.datingapp.core\bin\Debug\net5.0\linkdev.datingapp.core.pdb
+E:\Tutorials\DatingApp\LinkDev.DatingApp.Backend\linkdev.datingapp.core\obj\Debug\net5.0\linkdev.datingapp.core.csprojAssemblyReference.cache
+E:\Tutorials\DatingApp\LinkDev.DatingApp.Backend\linkdev.datingapp.core\obj\Debug\net5.0\linkdev.datingapp.core.GeneratedMSBuildEditorConfig.editorconfig
+E:\Tutorials\DatingApp\LinkDev.DatingApp.Backend\linkdev.datingapp.core\obj\Debug\net5.0\linkdev.datingapp.core.AssemblyInfoInputs.cache
+E:\Tutorials\DatingApp\LinkDev.DatingApp.Backend\linkdev.datingapp.core\obj\Debug\net5.0\linkdev.datingapp.core.AssemblyInfo.cs
+E:\Tutorials\DatingApp\LinkDev.DatingApp.Backend\linkdev.datingapp.core\obj\Debug\net5.0\linkdev.datingapp.core.csproj.CoreCompileInputs.cache
+E:\Tutorials\DatingApp\LinkDev.DatingApp.Backend\linkdev.datingapp.core\obj\Debug\net5.0\linkdev.datingapp.core.dll
+E:\Tutorials\DatingApp\LinkDev.DatingApp.Backend\linkdev.datingapp.core\obj\Debug\net5.0\ref\linkdev.datingapp.core.dll
+E:\Tutorials\DatingApp\LinkDev.DatingApp.Backend\linkdev.datingapp.core\obj\Debug\net5.0\linkdev.datingapp.core.pdb

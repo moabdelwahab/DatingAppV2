@@ -1,6 +1,6 @@
 using System;
 
-namespace Linkdev.DatingApp.API
+namespace LinkDev.DatingApp.API
 {
     public class WeatherForecast
     {

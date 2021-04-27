@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using LinkDev.DatingApp.API;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using linkdev.datingapp.Application;
 
 namespace Linkdev.DatingApp.API.Controllers
 {

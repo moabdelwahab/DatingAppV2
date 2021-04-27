@@ -1,4 +1,4 @@
-namespace Linkdev.DatingApp.Core
+namespace LinkDev.DatingApp.Core
 {
     public class AppUser
     {

@@ -2,28 +2,28 @@
   "version": 3,
   "targets": {
     "net5.0": {
-      "Linkdev.DatingApp.Core/1.0.0": {
+      "linkdev.datingapp.core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "compile": {
-          "bin/placeholder/Linkdev.DatingApp.Core.dll": {}
+          "bin/placeholder/linkdev.datingapp.core.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Linkdev.DatingApp.Core.dll": {}
+          "bin/placeholder/linkdev.datingapp.core.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "Linkdev.DatingApp.Core/1.0.0": {
+    "linkdev.datingapp.core/1.0.0": {
       "type": "project",
-      "path": "../linkdev.datingapp.core/Linkdev.DatingApp.Core.csproj",
-      "msbuildProject": "../linkdev.datingapp.core/Linkdev.DatingApp.Core.csproj"
+      "path": "../linkdev.datingapp.core/linkdev.datingapp.core.csproj",
+      "msbuildProject": "../linkdev.datingapp.core/linkdev.datingapp.core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "Linkdev.DatingApp.Core >= 1.0.0"
+      "linkdev.datingapp.core >= 1.0.0"
     ]
   },
   "packageFolders": {

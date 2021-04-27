@@ -7,7 +7,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace Linkdev.DatingApp.API
+namespace LinkDev.DatingApp.API
 {
     public class Program
     {

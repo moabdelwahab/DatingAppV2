@@ -1,0 +1,15 @@
+E:\Tutorials\DatingApp\LinkDev.DatingApp.Backend\linkdev.datingapp.Application\bin\Debug\net5.0\linkdev.datingapp.Application.deps.json
+E:\Tutorials\DatingApp\LinkDev.DatingApp.Backend\linkdev.datingapp.Application\bin\Debug\net5.0\linkdev.datingapp.Application.dll
+E:\Tutorials\DatingApp\LinkDev.DatingApp.Backend\linkdev.datingapp.Application\bin\Debug\net5.0\ref\linkdev.datingapp.Application.dll
+E:\Tutorials\DatingApp\LinkDev.DatingApp.Backend\linkdev.datingapp.Application\bin\Debug\net5.0\linkdev.datingapp.Application.pdb
+E:\Tutorials\DatingApp\LinkDev.DatingApp.Backend\linkdev.datingapp.Application\bin\Debug\net5.0\linkdev.datingapp.core.dll
+E:\Tutorials\DatingApp\LinkDev.DatingApp.Backend\linkdev.datingapp.Application\bin\Debug\net5.0\linkdev.datingapp.core.pdb
+E:\Tutorials\DatingApp\LinkDev.DatingApp.Backend\linkdev.datingapp.Application\obj\Debug\net5.0\linkdev.datingapp.Application.csprojAssemblyReference.cache
+E:\Tutorials\DatingApp\LinkDev.DatingApp.Backend\linkdev.datingapp.Application\obj\Debug\net5.0\linkdev.datingapp.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\Tutorials\DatingApp\LinkDev.DatingApp.Backend\linkdev.datingapp.Application\obj\Debug\net5.0\linkdev.datingapp.Application.AssemblyInfoInputs.cache
+E:\Tutorials\DatingApp\LinkDev.DatingApp.Backend\linkdev.datingapp.Application\obj\Debug\net5.0\linkdev.datingapp.Application.AssemblyInfo.cs
+E:\Tutorials\DatingApp\LinkDev.DatingApp.Backend\linkdev.datingapp.Application\obj\Debug\net5.0\linkdev.datingapp.Application.csproj.CoreCompileInputs.cache
+E:\Tutorials\DatingApp\LinkDev.DatingApp.Backend\linkdev.datingapp.Application\obj\Debug\net5.0\linkdev.datingapp.Application.csproj.CopyComplete
+E:\Tutorials\DatingApp\LinkDev.DatingApp.Backend\linkdev.datingapp.Application\obj\Debug\net5.0\linkdev.datingapp.Application.dll
+E:\Tutorials\DatingApp\LinkDev.DatingApp.Backend\linkdev.datingapp.Application\obj\Debug\net5.0\ref\linkdev.datingapp.Application.dll
+E:\Tutorials\DatingApp\LinkDev.DatingApp.Backend\linkdev.datingapp.Application\obj\Debug\net5.0\linkdev.datingapp.Application.pdb
