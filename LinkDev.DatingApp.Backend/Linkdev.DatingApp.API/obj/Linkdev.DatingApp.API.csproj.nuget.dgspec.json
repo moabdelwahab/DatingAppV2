@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Tutorials\\DatingApp\\LinkDev.DatingApp.Backend\\linkdev.datingapp.api\\Linkdev.DatingApp.API.csproj": {}
+    "E:\\Tutorials\\DatingApp\\LinkDev.DatingApp.Backend\\linkdev.datingapp.api\\LinkDev.DatingApp.API.csproj": {}
   },
   "projects": {
-    "E:\\Tutorials\\DatingApp\\LinkDev.DatingApp.Backend\\linkdev.datingapp.api\\Linkdev.DatingApp.API.csproj": {
+    "E:\\Tutorials\\DatingApp\\LinkDev.DatingApp.Backend\\linkdev.datingapp.api\\LinkDev.DatingApp.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Tutorials\\DatingApp\\LinkDev.DatingApp.Backend\\linkdev.datingapp.api\\Linkdev.DatingApp.API.csproj",
-        "projectName": "Linkdev.DatingApp.API",
-        "projectPath": "E:\\Tutorials\\DatingApp\\LinkDev.DatingApp.Backend\\linkdev.datingapp.api\\Linkdev.DatingApp.API.csproj",
+        "projectUniqueName": "E:\\Tutorials\\DatingApp\\LinkDev.DatingApp.Backend\\linkdev.datingapp.api\\LinkDev.DatingApp.API.csproj",
+        "projectName": "LinkDev.DatingApp.API",
+        "projectPath": "E:\\Tutorials\\DatingApp\\LinkDev.DatingApp.Backend\\linkdev.datingapp.api\\LinkDev.DatingApp.API.csproj",
         "packagesPath": "C:\\Users\\mhmad\\.nuget\\packages\\",
         "outputPath": "E:\\Tutorials\\DatingApp\\LinkDev.DatingApp.Backend\\linkdev.datingapp.api\\obj\\",
         "projectStyle": "PackageReference",

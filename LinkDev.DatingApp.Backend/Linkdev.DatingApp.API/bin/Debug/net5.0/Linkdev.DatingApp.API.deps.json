@@ -31,7 +31,7 @@
   },
   "targets": {
     ".NETCoreApp,Version=v5.0": {
-      "Linkdev.DatingApp.API/1.0.0": {
+      "LinkDev.DatingApp.API/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "5.0.5",
           "Microsoft.EntityFrameworkCore.Design": "5.0.5",
@@ -322,10 +322,10 @@
           "WindowsBase": "4.0.0.0"
         },
         "runtime": {
-          "Linkdev.DatingApp.API.dll": {}
+          "LinkDev.DatingApp.API.dll": {}
         },
         "compile": {
-          "Linkdev.DatingApp.API.dll": {}
+          "LinkDev.DatingApp.API.dll": {}
         }
       },
       "Humanizer.Core/2.8.26": {
@@ -2420,7 +2420,7 @@
     }
   },
   "libraries": {
-    "Linkdev.DatingApp.API/1.0.0": {
+    "LinkDev.DatingApp.API/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

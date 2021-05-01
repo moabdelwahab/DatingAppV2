@@ -1,5 +1,5 @@
 {
-  "FilePath": "e:\\Tutorials\\DatingApp\\LinkDev.DatingApp.Backend\\linkdev.datingapp.api\\Linkdev.DatingApp.API.csproj",
+  "FilePath": "e:\\Tutorials\\DatingApp\\LinkDev.DatingApp.Backend\\linkDev.Datingapp.api\\LinkDev.DatingApp.API.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15616,7 +15616,7 @@
     ],
     "CSharpLanguageVersion": 900
   },
-  "RootNamespace": "Linkdev.DatingApp.API",
+  "RootNamespace": "LinkDev.DatingApp.API",
   "Documents": [],
   "SerializationFormat": "0.2"
 }

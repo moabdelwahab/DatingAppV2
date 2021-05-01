@@ -1,4 +1,8 @@
+using LinkDev.DatingApp.Application;
+using LinkDev.DatingApp.Application.Contracts;
+using LinkDev.DatingApp.Application.IRepositories;
 using LinkDev.DatingApp.Presistence;
+using LinkDev.DatingApp.Presistence.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -20,6 +24,9 @@ namespace LinkDev.DatingApp.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+
+            services.AddScoped<IUsersManager,UsersManager>();
+            services.AddScoped<IAppUserRepository,AppUserRepository>();
             services.AddDbContext<DatingAppContext>(options =>
             {
                 options.UseSqlite(_config.GetConnectionString("DefaultConnection"));
