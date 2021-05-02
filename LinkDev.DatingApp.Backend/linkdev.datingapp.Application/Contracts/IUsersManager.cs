@@ -9,5 +9,7 @@ namespace LinkDev.DatingApp.Application.Contracts
         Task<List<AppUser>> GetUsers();
 
         Task<AppUser> GetUserById(int id);
+
+        Task<int> AddUser(AppUser user);
     }
 }

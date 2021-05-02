@@ -24,7 +24,7 @@ namespace LinkDev.DatingApp.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-
+            
             services.AddScoped<IUsersManager,UsersManager>();
             services.AddScoped<IAppUserRepository,AppUserRepository>();
             services.AddDbContext<DatingAppContext>(options =>
@@ -32,6 +32,7 @@ namespace LinkDev.DatingApp.API
                 options.UseSqlite(_config.GetConnectionString("DefaultConnection"));
             });
             services.AddControllers();
+            services.AddCors();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Linkdev.DatingApp.API", Version = "v1" });
@@ -51,6 +52,8 @@ namespace LinkDev.DatingApp.API
             app.UseHttpsRedirection();
 
             app.UseRouting();
+
+            app.UseCors(x=>x.AllowAnyHeader().AllowAnyHeader().WithOrigins("http://localhost:4200"));
 
             app.UseAuthorization();
 

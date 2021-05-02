@@ -24,5 +24,12 @@ namespace LinkDev.DatingApp.Presistence.Repositories
         {
              return await _context.Users.FirstOrDefaultAsync(x=>x.Id==id);
         }
+
+        public async Task<int> AddUser(AppUser user)
+        {
+            _context.Users.Add(user);
+            var id =  await _context.SaveChangesAsync();
+            return id;
+        }
     }
 }

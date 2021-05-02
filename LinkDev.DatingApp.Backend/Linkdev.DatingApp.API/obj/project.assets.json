@@ -1317,11 +1317,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Tutorials\\DatingApp\\LinkDev.DatingApp.Backend\\linkdev.datingapp.api\\linkdev.datingapp.api.csproj",
-      "projectName": "linkdev.datingapp.api",
-      "projectPath": "E:\\Tutorials\\DatingApp\\LinkDev.DatingApp.Backend\\linkdev.datingapp.api\\linkdev.datingapp.api.csproj",
+      "projectUniqueName": "E:\\Tutorials\\DatingApp\\linkdev.datingapp.backend\\linkdev.datingapp.api\\LinkDev.DatingApp.API.csproj",
+      "projectName": "LinkDev.DatingApp.API",
+      "projectPath": "E:\\Tutorials\\DatingApp\\linkdev.datingapp.backend\\linkdev.datingapp.api\\LinkDev.DatingApp.API.csproj",
       "packagesPath": "C:\\Users\\mhmad\\.nuget\\packages\\",
-      "outputPath": "E:\\Tutorials\\DatingApp\\LinkDev.DatingApp.Backend\\linkdev.datingapp.api\\obj\\",
+      "outputPath": "E:\\Tutorials\\DatingApp\\linkdev.datingapp.backend\\linkdev.datingapp.api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mhmad\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1338,14 +1338,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "E:\\Tutorials\\DatingApp\\LinkDev.DatingApp.Backend\\linkdev.datingapp.Application\\linkdev.datingapp.Application.csproj": {
-              "projectPath": "E:\\Tutorials\\DatingApp\\LinkDev.DatingApp.Backend\\linkdev.datingapp.Application\\linkdev.datingapp.Application.csproj"
+            "E:\\Tutorials\\DatingApp\\linkdev.datingapp.backend\\linkdev.datingapp.Application\\linkdev.datingapp.Application.csproj": {
+              "projectPath": "E:\\Tutorials\\DatingApp\\linkdev.datingapp.backend\\linkdev.datingapp.Application\\linkdev.datingapp.Application.csproj"
             },
-            "E:\\Tutorials\\DatingApp\\LinkDev.DatingApp.Backend\\linkdev.datingapp.core\\linkdev.datingapp.core.csproj": {
-              "projectPath": "E:\\Tutorials\\DatingApp\\LinkDev.DatingApp.Backend\\linkdev.datingapp.core\\linkdev.datingapp.core.csproj"
+            "E:\\Tutorials\\DatingApp\\linkdev.datingapp.backend\\linkdev.datingapp.core\\linkdev.datingapp.core.csproj": {
+              "projectPath": "E:\\Tutorials\\DatingApp\\linkdev.datingapp.backend\\linkdev.datingapp.core\\linkdev.datingapp.core.csproj"
             },
-            "E:\\Tutorials\\DatingApp\\LinkDev.DatingApp.Backend\\linkdev.datingapp.Presistence\\linkdev.datingapp.Presistence.csproj": {
-              "projectPath": "E:\\Tutorials\\DatingApp\\LinkDev.DatingApp.Backend\\linkdev.datingapp.Presistence\\linkdev.datingapp.Presistence.csproj"
+            "E:\\Tutorials\\DatingApp\\linkdev.datingapp.backend\\linkdev.datingapp.Presistence\\linkdev.datingapp.Presistence.csproj": {
+              "projectPath": "E:\\Tutorials\\DatingApp\\linkdev.datingapp.backend\\linkdev.datingapp.Presistence\\linkdev.datingapp.Presistence.csproj"
             }
           }
         }

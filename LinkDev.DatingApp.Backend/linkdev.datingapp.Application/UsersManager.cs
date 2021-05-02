@@ -22,5 +22,10 @@ namespace LinkDev.DatingApp.Application
         {
             return await _repository.GetUsers();
         }
+
+        public async Task<int> AddUser(AppUser user)
+        {
+            return await _repository.AddUser(user);
+        }
      }
 }
