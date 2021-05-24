@@ -61,3 +61,13 @@ E:\Tutorials\DatingApp\LinkDev.DatingApp.Backend\linkdev.datingapp.api\bin\Debug
 E:\Tutorials\DatingApp\LinkDev.DatingApp.Backend\linkdev.datingapp.api\bin\Debug\net5.0\linkdev.datingapp.Presistence.pdb
 E:\Tutorials\DatingApp\LinkDev.DatingApp.Backend\linkdev.datingapp.api\bin\Debug\net5.0\Humanizer.dll
 E:\Tutorials\DatingApp\LinkDev.DatingApp.Backend\linkdev.datingapp.api\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\Tutorials\DatingApp\linkdev.datingapp.backend\linkdev.datingapp.api\bin\Debug\net5.0\AutoMapper.dll
+E:\Tutorials\DatingApp\linkdev.datingapp.backend\linkdev.datingapp.api\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Tutorials\DatingApp\linkdev.datingapp.backend\linkdev.datingapp.api\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+E:\Tutorials\DatingApp\linkdev.datingapp.backend\linkdev.datingapp.api\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+E:\Tutorials\DatingApp\linkdev.datingapp.backend\linkdev.datingapp.api\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+E:\Tutorials\DatingApp\linkdev.datingapp.backend\linkdev.datingapp.api\bin\Debug\net5.0\linkdev.datingapp.Infrastructure.dll
+E:\Tutorials\DatingApp\linkdev.datingapp.backend\linkdev.datingapp.api\bin\Debug\net5.0\linkdev.datingapp.Infrastructure.pdb
+E:\Tutorials\DatingApp\linkdev.datingapp.backend\linkdev.datingapp.api\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\Tutorials\DatingApp\linkdev.datingapp.backend\linkdev.datingapp.api\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+E:\Tutorials\DatingApp\linkdev.datingapp.backend\linkdev.datingapp.api\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll

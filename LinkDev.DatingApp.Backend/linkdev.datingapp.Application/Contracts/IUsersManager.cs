@@ -1,5 +1,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using LinkDev.DatingApp.Application.BE;
+using LinkDev.DatingApp.Application.BE.DTOs;
 using LinkDev.DatingApp.Core;
 
 namespace LinkDev.DatingApp.Application.Contracts
@@ -11,5 +13,9 @@ namespace LinkDev.DatingApp.Application.Contracts
         Task<AppUser> GetUserById(int id);
 
         Task<int> AddUser(AppUser user);
+
+        Task<AppUser> UserExist(string username);
+
+        Task<ApiResponse> Login(LoginDTO loginDTO );
     }
 }

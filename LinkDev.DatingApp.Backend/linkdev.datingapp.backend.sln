@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "linkdev.datingapp.Applicati
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkDev.DatingApp.Presistence", "LinkDev.DatingApp.Presistence\LinkDev.DatingApp.Presistence.csproj", "{02D6DABB-EA00-496F-9494-B15C82AA7EC4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkDev.DatingApp.Infrastructure", "LinkDev.DatingApp.Infrastructure\LinkDev.DatingApp.Infrastructure.csproj", "{B58A740D-0648-4518-990B-CFDB4E8F196C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,5 +74,17 @@ Global
 		{02D6DABB-EA00-496F-9494-B15C82AA7EC4}.Release|x64.Build.0 = Release|Any CPU
 		{02D6DABB-EA00-496F-9494-B15C82AA7EC4}.Release|x86.ActiveCfg = Release|Any CPU
 		{02D6DABB-EA00-496F-9494-B15C82AA7EC4}.Release|x86.Build.0 = Release|Any CPU
+		{B58A740D-0648-4518-990B-CFDB4E8F196C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B58A740D-0648-4518-990B-CFDB4E8F196C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B58A740D-0648-4518-990B-CFDB4E8F196C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B58A740D-0648-4518-990B-CFDB4E8F196C}.Debug|x64.Build.0 = Debug|Any CPU
+		{B58A740D-0648-4518-990B-CFDB4E8F196C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B58A740D-0648-4518-990B-CFDB4E8F196C}.Debug|x86.Build.0 = Debug|Any CPU
+		{B58A740D-0648-4518-990B-CFDB4E8F196C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B58A740D-0648-4518-990B-CFDB4E8F196C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B58A740D-0648-4518-990B-CFDB4E8F196C}.Release|x64.ActiveCfg = Release|Any CPU
+		{B58A740D-0648-4518-990B-CFDB4E8F196C}.Release|x64.Build.0 = Release|Any CPU
+		{B58A740D-0648-4518-990B-CFDB4E8F196C}.Release|x86.ActiveCfg = Release|Any CPU
+		{B58A740D-0648-4518-990B-CFDB4E8F196C}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -3,8 +3,10 @@ using System.Text;
 using System.Threading.Tasks;
 using LinkDev.DatingApp.Application.Contracts;
 using LinkDev.DatingApp.Core;
-using LinkDev.DatingApp.Presistence;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
+using LinkDev.DatingApp.Application.BE;
+using LinkDev.DatingApp.Application.BE.DTOs;
 
 namespace LinkDev.DatingApp.API.Controllers
 {
@@ -13,24 +15,47 @@ namespace LinkDev.DatingApp.API.Controllers
     public class AccountController : ControllerBase
     {
         private readonly IUsersManager _userManager;
+
         public AccountController(IUsersManager userManager)
         {
             this._userManager = userManager;
         }
 
-        [HttpPost("register")]
-        public async Task<ActionResult<int>> Register(string username, string password)
+    [HttpPost("register")]
+    public async Task<ActionResult<int>> Register(RegisterDto registerDto)
+    {
+        if (await _userManager.UserExist(registerDto.username) == null)
         {
+
             using var hmac = new HMACSHA512();
             var user = new AppUser()
             {
-                UserName = username,
-                PasswordHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(password)),
+                UserName = registerDto.username,
+                PasswordHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(registerDto.password)),
                 PasswordSalt = hmac.Key
             };
             var id = await this._userManager.AddUser(user);
             return Ok(id);
         }
-
+        else
+        {
+            return BadRequest("The username is exist , please choose another one ");
+        }
     }
+
+    [HttpPost("Login")]
+    public async Task<ActionResult<int>> Login(LoginDTO loginDTO)
+    {
+      ApiResponse loginResponse = default(ApiResponse); 
+      loginResponse = await _userManager.Login(loginDTO);
+      if(loginResponse.Status != System.Net.HttpStatusCode.OK)
+        {
+            return BadRequest(loginResponse.Messages);
+        }else
+        {
+            return Ok(loginResponse.Data);
+        }
+    }
+
+}
 }

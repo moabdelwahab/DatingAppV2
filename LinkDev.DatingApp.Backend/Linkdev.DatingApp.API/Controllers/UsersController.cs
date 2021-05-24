@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using LinkDev.DatingApp.Application;
 using System.Threading.Tasks;
 using LinkDev.DatingApp.Application.Contracts;
+using Microsoft.AspNetCore.Authorization;
 
 namespace LinkDev.DatingApp.API.Controllers
 {
@@ -14,7 +15,7 @@ namespace LinkDev.DatingApp.API.Controllers
         {
             this._usersManager = usersManager;
         }
-
+        [AllowAnonymous]
         [HttpGet]
         public async Task<ActionResult> GetUsers()
         {
@@ -22,6 +23,7 @@ namespace LinkDev.DatingApp.API.Controllers
             return Ok(result);
         }
 
+        [Authorize]
         [HttpGet("{id}")]
         public async Task<ActionResult> GetUsers(int id)
         {

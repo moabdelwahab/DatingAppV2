@@ -1,6 +1,9 @@
+using LinkDev.DatingApp.API.Extensions;
 using LinkDev.DatingApp.Application;
 using LinkDev.DatingApp.Application.Contracts;
-using LinkDev.DatingApp.Application.IRepositories;
+using LinkDev.DatingApp.Application.InfrastuctureContracts;
+using LinkDev.DatingApp.Application.PresistenceContracts;
+using LinkDev.DatingApp.Infrastructure;
 using LinkDev.DatingApp.Presistence;
 using LinkDev.DatingApp.Presistence.Repositories;
 using Microsoft.AspNetCore.Builder;
@@ -24,13 +27,8 @@ namespace LinkDev.DatingApp.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            
-            services.AddScoped<IUsersManager,UsersManager>();
-            services.AddScoped<IAppUserRepository,AppUserRepository>();
-            services.AddDbContext<DatingAppContext>(options =>
-            {
-                options.UseSqlite(_config.GetConnectionString("DefaultConnection"));
-            });
+            services.AddApplicationServices(_config);
+            services.AddIdentityService(_config);
             services.AddControllers();
             services.AddCors();
             services.AddSwaggerGen(c =>
@@ -52,9 +50,9 @@ namespace LinkDev.DatingApp.API
             app.UseHttpsRedirection();
 
             app.UseRouting();
-
+            
             app.UseCors(x=>x.AllowAnyHeader().AllowAnyHeader().WithOrigins("http://localhost:4200"));
-
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

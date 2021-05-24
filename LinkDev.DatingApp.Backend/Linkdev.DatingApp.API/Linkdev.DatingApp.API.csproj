@@ -4,6 +4,8 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.5">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -16,8 +18,7 @@
     <ProjectReference Include="..\linkdev.datingapp.core\linkdev.datingapp.core.csproj" />
     <ProjectReference Include="..\linkdev.datingapp.Application\linkdev.datingapp.Application.csproj" />
     <ProjectReference Include="..\linkdev.datingapp.Presistence\linkdev.datingapp.Presistence.csproj" />
-
-
+    <ProjectReference Include="..\linkdev.datingapp.Infrastructure\linkdev.datingapp.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
