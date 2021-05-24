@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hGucDNN9QkbalPPeHUypRg96qa040qoB3J37JY7CQ3SU4RUdoTIrgrlFKs7rEC0fjdd4l3k11rT63nc13lxYag==",
+  "dgSpecHash": "Fcuj0QrELVy9MI2W7g2UZmiWl9zQD0W7DJkLJjYvs36qrKdpPA9oGjxy1WT5+0vU01QKPjexcpySDz1VQzj82A==",
   "success": true,
-  "projectFilePath": "E:\\Tutorials\\DatingApp\\linkdev.datingapp.backend\\linkdev.datingapp.core\\linkdev.datingapp.core.csproj",
+  "projectFilePath": "E:\\Tutorials\\datingapp\\linkdev.datingapp.backend\\linkdev.datingapp.core\\linkdev.datingapp.core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

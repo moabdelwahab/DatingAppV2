@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0cZ30/4Z0hahnAOksGi2BY9NVvTsuarhKKWeVFYL+9Fc+99gXgjyTBB2L3ISBJaR/5XoQ1NpoHFRtz5Os65fdA==",
+  "dgSpecHash": "RfNEL+HwSOE/I7tzqFKZWgTnzekXZzEMoBMT25tYnQS2tXsFJSvV+3NnAiWJuyIDUodSncNyKpUc4ygXGgWV2A==",
   "success": true,
-  "projectFilePath": "E:\\Tutorials\\DatingApp\\linkdev.datingapp.backend\\linkdev.datingapp.api\\LinkDev.DatingApp.API.csproj",
+  "projectFilePath": "E:\\Tutorials\\datingapp\\linkdev.datingapp.backend\\linkdev.datingapp.api\\LinkDev.DatingApp.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mhmad\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\mhmad\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
