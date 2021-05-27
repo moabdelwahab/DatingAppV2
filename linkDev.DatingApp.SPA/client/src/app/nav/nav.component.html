@@ -1,5 +1,5 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark"> 
-  <div class="container">
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container-fluid">
     <a class="navbar-brand" href="#">Dating App</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -20,11 +20,10 @@
         </li>
       </ul>
 
-      
-        <div class="btn-group" dropdown *ngIf="accService.currentUser$ | async ">
+        <div class="btn-group" dropdown *ngIf="(accService.currentUser$ | async) as user ">
           <button id="button-basic" dropdownToggle type="button" class="btn btn-primary dropdown-toggle"
                   aria-controls="dropdown-basic">
-            Welocme <span class="caret"></span>
+            Welocme <span class="caret">{{ user.username | titlecase }} </span>
           </button>
           <ul id="dropdown-basic" *dropdownMenu class="dropdown-menu"
               role="menu" aria-labelledby="button-basic">
@@ -34,9 +33,6 @@
             </li>
           </ul>
         </div>
-        
-
-
 
       <form *ngIf="(accService.currentUser$ | async) === null" #LoginForm="ngForm" class="d-flex" (ngSubmit)="login()">
         <input
@@ -47,8 +43,8 @@
         name="Password"
         [(ngModel)]="loginUser.password"
         class="form-control me-2" type="password" placeholder="Password" aria-label="Password">
-
         <button class="btn btn-outline-success" type="submit">Login</button>
+        
       </form>
   </div>
 </nav>

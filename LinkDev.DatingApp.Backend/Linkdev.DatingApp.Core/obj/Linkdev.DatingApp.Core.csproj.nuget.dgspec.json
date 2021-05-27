@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Tutorials\\datingapp\\linkdev.datingapp.backend\\linkdev.datingapp.core\\linkdev.datingapp.core.csproj": {}
+    "E:\\Tutorials\\DatingApp\\linkdev.datingapp.backend\\linkdev.datingapp.core\\linkdev.datingapp.core.csproj": {}
   },
   "projects": {
-    "E:\\Tutorials\\datingapp\\linkdev.datingapp.backend\\linkdev.datingapp.core\\linkdev.datingapp.core.csproj": {
+    "E:\\Tutorials\\DatingApp\\linkdev.datingapp.backend\\linkdev.datingapp.core\\linkdev.datingapp.core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Tutorials\\datingapp\\linkdev.datingapp.backend\\linkdev.datingapp.core\\linkdev.datingapp.core.csproj",
+        "projectUniqueName": "E:\\Tutorials\\DatingApp\\linkdev.datingapp.backend\\linkdev.datingapp.core\\linkdev.datingapp.core.csproj",
         "projectName": "linkdev.datingapp.core",
-        "projectPath": "E:\\Tutorials\\datingapp\\linkdev.datingapp.backend\\linkdev.datingapp.core\\linkdev.datingapp.core.csproj",
+        "projectPath": "E:\\Tutorials\\DatingApp\\linkdev.datingapp.backend\\linkdev.datingapp.core\\linkdev.datingapp.core.csproj",
         "packagesPath": "C:\\Users\\mhmad\\.nuget\\packages\\",
-        "outputPath": "E:\\Tutorials\\datingapp\\linkdev.datingapp.backend\\linkdev.datingapp.core\\obj\\",
+        "outputPath": "E:\\Tutorials\\DatingApp\\linkdev.datingapp.backend\\linkdev.datingapp.core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mhmad\\AppData\\Roaming\\NuGet\\NuGet.Config",
