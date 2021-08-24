@@ -8,7 +8,6 @@ import { AccountService } from 'src/app/_services/account.service';
 })
 export class RegisterComponent implements OnInit {
 
-  @Input() usersFromHomeComponent:any ;
   @Output() CancelRegister : EventEmitter<any> = new EventEmitter();
   model:any={};
 

@@ -11,5 +11,6 @@ namespace LinkDev.DatingApp.Application.PresistenceContracts
         Task<AppUser> GetUserById(int id);
         Task<int> AddUser(AppUser user);
         Task<AppUser> GetUserByUsername(string username);
+        Task UpdateUser(AppUser user);
     }
 }

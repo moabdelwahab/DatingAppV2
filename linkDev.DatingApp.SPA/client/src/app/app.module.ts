@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import {HttpClientModule} from '@angular/common/http'
+import {HttpClientModule, HTTP_INTERCEPTORS} from '@angular/common/http'
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations'
 
 import { AppRoutingModule } from './app-routing.module';
@@ -12,8 +12,14 @@ import { RegisterComponent } from './home/register/register.component';
 import { MemberListComponent } from './members/member-list/member-list.component';
 import { MemberDetailComponent } from './members/member-detail/member-detail.component';
 import { MessagesComponent } from './messages/messages.component';
-import { ListsComponent } from './lists/lists.component';
 import { SharedModule } from './_modules/shared.module';
+import { ErrorsComponent } from './errors/errors.component';
+import { ErrorInterceptor } from './_Interceptors/error.interceptor';
+import { ServerErrorComponent } from './errors/server-error/server-error.component';
+import { MemebrCardComponent } from './members/member-list/memebr-card/memebr-card.component'
+import { JwtInterceptor } from './_Interceptors/jwt.interceptor';
+import { MemberEditComponent } from './members/member-edit/member-edit.component';
+import { BusyInterceptor } from './_Interceptors/busy.interceptor';
 
 @NgModule({
   declarations: [
@@ -24,7 +30,10 @@ import { SharedModule } from './_modules/shared.module';
     MemberListComponent,
     MemberDetailComponent,
     MessagesComponent,
-    ListsComponent
+    ErrorsComponent,
+    ServerErrorComponent,
+    MemebrCardComponent,
+    MemberEditComponent
   ],
   imports: [
     BrowserModule,
@@ -34,7 +43,13 @@ import { SharedModule } from './_modules/shared.module';
     BrowserAnimationsModule,
     SharedModule
   ],
-  providers: [],
+  providers: [
+    {provide: HTTP_INTERCEPTORS,useClass:ErrorInterceptor,multi:true},
+    {provide: HTTP_INTERCEPTORS,useClass:JwtInterceptor,multi:true},
+    {provide: HTTP_INTERCEPTORS,useClass:BusyInterceptor,multi:true}
+
+
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "0cZ30/4Z0hahnAOksGi2BY9NVvTsuarhKKWeVFYL+9Fc+99gXgjyTBB2L3ISBJaR/5XoQ1NpoHFRtz5Os65fdA==",
+  "dgSpecHash": "SIVXG4YEUE+yyy54ICGKCP5eGvhA2diCCgbxeePQkpHz3m/j5eYpYhylTcYqdXoSVAEOXg23xkaK5EuGSRnzBQ==",
   "success": true,
   "projectFilePath": "E:\\Tutorials\\DatingApp\\linkdev.datingapp.backend\\linkdev.datingapp.api\\LinkDev.DatingApp.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mhmad\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\mhmad\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
     "C:\\Users\\mhmad\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\mhmad\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.5\\microsoft.aspnetcore.authentication.jwtbearer.5.0.5.nupkg.sha512",
     "C:\\Users\\mhmad\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

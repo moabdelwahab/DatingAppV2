@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using LinkDev.DatingApp.Application.BE;
 using LinkDev.DatingApp.Application.BE.DTOs;
+using LinkDev.DatingApp.Application.Errors;
+using System;
 
 namespace LinkDev.DatingApp.API.Controllers
 {
@@ -45,17 +47,10 @@ namespace LinkDev.DatingApp.API.Controllers
 
     [HttpPost("Login")]
     public async Task<ActionResult<int>> Login(LoginDTO loginDTO)
-    {
-      ApiResponse loginResponse = default(ApiResponse); 
-      loginResponse = await _userManager.Login(loginDTO);
-      if(loginResponse.Status != System.Net.HttpStatusCode.OK)
-        {
-            return BadRequest(loginResponse.Messages);
-        }else
-        {
-            return Ok(loginResponse.Data);
-        }
-    }
+     {
+         var loginUser = await _userManager.Login(loginDTO);
+         return Ok(loginUser);
+     }
 
 }
 }

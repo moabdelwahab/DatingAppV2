@@ -11,7 +11,6 @@ E:\Tutorials\DatingApp\LinkDev.DatingApp.Backend\linkdev.datingapp.api\bin\Debug
 E:\Tutorials\DatingApp\LinkDev.DatingApp.Backend\linkdev.datingapp.api\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 E:\Tutorials\DatingApp\LinkDev.DatingApp.Backend\linkdev.datingapp.api\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 E:\Tutorials\DatingApp\LinkDev.DatingApp.Backend\linkdev.datingapp.api\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-E:\Tutorials\DatingApp\LinkDev.DatingApp.Backend\linkdev.datingapp.api\obj\Debug\net5.0\Linkdev.DatingApp.API.csprojAssemblyReference.cache
 E:\Tutorials\DatingApp\LinkDev.DatingApp.Backend\linkdev.datingapp.api\obj\Debug\net5.0\Linkdev.DatingApp.API.GeneratedMSBuildEditorConfig.editorconfig
 E:\Tutorials\DatingApp\LinkDev.DatingApp.Backend\linkdev.datingapp.api\obj\Debug\net5.0\Linkdev.DatingApp.API.AssemblyInfoInputs.cache
 E:\Tutorials\DatingApp\LinkDev.DatingApp.Backend\linkdev.datingapp.api\obj\Debug\net5.0\Linkdev.DatingApp.API.AssemblyInfo.cs
@@ -71,3 +70,6 @@ E:\Tutorials\DatingApp\linkdev.datingapp.backend\linkdev.datingapp.api\bin\Debug
 E:\Tutorials\DatingApp\linkdev.datingapp.backend\linkdev.datingapp.api\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 E:\Tutorials\DatingApp\linkdev.datingapp.backend\linkdev.datingapp.api\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
 E:\Tutorials\DatingApp\linkdev.datingapp.backend\linkdev.datingapp.api\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Tutorials\DatingApp\linkdev.datingapp.backend\linkdev.datingapp.api\obj\Debug\net5.0\LinkDev.DatingApp.API.csproj.AssemblyReference.cache
+E:\Tutorials\datingapp\linkdev.datingapp.backend\linkdev.datingapp.api\bin\Debug\net5.0\SeedData\UserSeedData.json
+E:\Tutorials\DatingApp\linkdev.datingapp.backend\linkdev.datingapp.api\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

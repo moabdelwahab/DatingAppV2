@@ -6,7 +6,6 @@ E:\Tutorials\DatingApp\LinkDev.DatingApp.Backend\linkdev.datingapp.Presistence\b
 E:\Tutorials\DatingApp\LinkDev.DatingApp.Backend\linkdev.datingapp.Presistence\bin\Debug\net5.0\linkdev.datingapp.core.dll
 E:\Tutorials\DatingApp\LinkDev.DatingApp.Backend\linkdev.datingapp.Presistence\bin\Debug\net5.0\linkdev.datingapp.core.pdb
 E:\Tutorials\DatingApp\LinkDev.DatingApp.Backend\linkdev.datingapp.Presistence\bin\Debug\net5.0\linkdev.datingapp.Application.pdb
-E:\Tutorials\DatingApp\LinkDev.DatingApp.Backend\linkdev.datingapp.Presistence\obj\Debug\net5.0\linkdev.datingapp.Presistence.csprojAssemblyReference.cache
 E:\Tutorials\DatingApp\LinkDev.DatingApp.Backend\linkdev.datingapp.Presistence\obj\Debug\net5.0\linkdev.datingapp.Presistence.GeneratedMSBuildEditorConfig.editorconfig
 E:\Tutorials\DatingApp\LinkDev.DatingApp.Backend\linkdev.datingapp.Presistence\obj\Debug\net5.0\linkdev.datingapp.Presistence.AssemblyInfoInputs.cache
 E:\Tutorials\DatingApp\LinkDev.DatingApp.Backend\linkdev.datingapp.Presistence\obj\Debug\net5.0\linkdev.datingapp.Presistence.AssemblyInfo.cs
@@ -18,3 +17,4 @@ E:\Tutorials\DatingApp\LinkDev.DatingApp.Backend\linkdev.datingapp.Presistence\o
 E:\Tutorials\DatingApp\LinkDev.DatingApp.Backend\linkdev.datingapp.presistence\bin\Debug\net5.0\LinkDev.DatingApp.Presistence.runtimeconfig.json
 E:\Tutorials\DatingApp\LinkDev.DatingApp.Backend\linkdev.datingapp.presistence\bin\Debug\net5.0\LinkDev.DatingApp.Presistence.runtimeconfig.dev.json
 E:\Tutorials\DatingApp\LinkDev.DatingApp.Backend\linkdev.datingapp.presistence\obj\Debug\net5.0\LinkDev.DatingApp.Presistence.genruntimeconfig.cache
+E:\Tutorials\DatingApp\linkdev.datingapp.backend\linkdev.datingapp.Presistence\obj\Debug\net5.0\linkdev.datingapp.Presistence.csproj.AssemblyReference.cache

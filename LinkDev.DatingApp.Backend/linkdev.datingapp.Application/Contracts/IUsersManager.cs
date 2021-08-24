@@ -8,14 +8,12 @@ namespace LinkDev.DatingApp.Application.Contracts
 {
     public interface IUsersManager
     {
-        Task<List<AppUser>> GetUsers();
-
+        Task<List<MemberDto>> GetUsers();
         Task<AppUser> GetUserById(int id);
-
         Task<int> AddUser(AppUser user);
-
         Task<AppUser> UserExist(string username);
-
-        Task<ApiResponse> Login(LoginDTO loginDTO );
+        Task<UserDTO> Login(LoginDTO loginDTO );
+        Task <MemberDto> GetUserByUsername(string username);
+        Task UpdateUser(string username , UpdateMemberDto member);
     }
 }

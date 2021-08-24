@@ -1,5 +1,6 @@
 using LinkDev.DatingApp.Application;
 using LinkDev.DatingApp.Application.Contracts;
+using LinkDev.DatingApp.Application.Helpers;
 using LinkDev.DatingApp.Application.InfrastuctureContracts;
 using LinkDev.DatingApp.Application.PresistenceContracts;
 using LinkDev.DatingApp.Infrastructure;
@@ -17,11 +18,13 @@ namespace LinkDev.DatingApp.API.Extensions
         {
             services.AddScoped<IUsersManager, UsersManager>();
             services.AddScoped<IAppUserRepository, AppUserRepository>();
-            services.AddScoped<ITokenService>(_ => new TokenService(config["SecurityKey"]));
+            services.AddScoped<ITokenService>(x => new TokenService(config["SecurityKey"]));
             services.AddDbContext<DatingAppContext>(options =>
             {
                 options.UseSqlite(config.GetConnectionString("DefaultConnection"));
             });
+            services.AddScoped(typeof(Seed));
+            services.AddAutoMapper(typeof(MapperProfile).Assembly);
             return services;
         }
     }

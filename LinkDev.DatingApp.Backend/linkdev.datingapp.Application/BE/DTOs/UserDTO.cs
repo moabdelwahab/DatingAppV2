@@ -6,7 +6,6 @@ namespace LinkDev.DatingApp.Application.BE.DTOs
     {
         [Required]
         public string username { get; set; }
-        [Required]
         public string Token { get; set; }
 
     }

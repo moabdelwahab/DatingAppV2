@@ -1,9 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
 
 
-#map {
+#datingMap {
     height: 400px;
     /* The height is 400 pixels */
-    width: 100%;
+    width: 400px;
     /* The width is the width of the web page */
   }

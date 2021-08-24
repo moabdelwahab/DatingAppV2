@@ -1,4 +1,5 @@
 using LinkDev.DatingApp.API.Extensions;
+using LinkDev.DatingApp.API.Middlewares;
 using LinkDev.DatingApp.Application;
 using LinkDev.DatingApp.Application.Contracts;
 using LinkDev.DatingApp.Application.InfrastuctureContracts;
@@ -40,9 +41,9 @@ namespace LinkDev.DatingApp.API
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            app.UseMiddleware<ExceptionMiddleware>();
             if (env.IsDevelopment())
             {
-                app.UseDeveloperExceptionPage();
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Linkdev.DatingApp.API v1"));
             }
@@ -51,8 +52,10 @@ namespace LinkDev.DatingApp.API
 
             app.UseRouting();
             
-            app.UseCors(x=>x.AllowAnyHeader().AllowAnyHeader().WithOrigins("http://localhost:4200"));
+            app.UseCors(x=>x.AllowAnyHeader().AllowAnyMethod().WithOrigins("http://localhost:4200"));
+            
             app.UseAuthentication();
+
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

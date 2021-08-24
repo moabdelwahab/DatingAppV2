@@ -17,7 +17,7 @@ namespace LinkDev.DatingApp.Presistence.Repositories
         }
         public async Task<List<AppUser>> GetUsers()
         {
-            return await _context.Users.ToListAsync();
+            return await _context.Users.Include(x=>x.Photos).ToListAsync();
         }
 
         public async Task<AppUser> GetUserById(int id)
@@ -34,7 +34,14 @@ namespace LinkDev.DatingApp.Presistence.Repositories
 
         public async Task<AppUser> GetUserByUsername(string username)
         {
-             return await _context.Users.FirstOrDefaultAsync(x=>x.UserName.ToLower() ==username.ToLower());
+             return await _context.Users.Include(x=>x.Photos).FirstOrDefaultAsync(x=>x.UserName.ToLower() ==username.ToLower());
+        }
+
+        public async Task UpdateUser(AppUser user)
+        {
+            _context.Attach(user);
+            _context.Entry(user).State = EntityState.Modified;
+             await _context.SaveChangesAsync();
         }
     }
 }
